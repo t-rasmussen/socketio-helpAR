@@ -1,0 +1,23 @@
+{
+  "name": "socketio-helpar",
+  "version": "0.1.0",
+  "description": "socket communication for remote assistance prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "remote",
+    "assistance",
+    "sockets"
+  ],
+  "author": "trolle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
