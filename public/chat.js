@@ -1,5 +1,6 @@
 //make connection 
-var socket = io.connect('http://localhost:4000/')
+//var socket = io.connect('http://localhost:4000/')
+var socket = io.connect('https://socketio-helpar.herokuapp.com:4000/')
 
 var handle = document.getElementById('handle')
 var message = document.getElementById('message')
